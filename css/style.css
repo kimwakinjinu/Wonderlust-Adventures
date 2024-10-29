@@ -1,0 +1,105 @@
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 100 to 900 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #000000;
+}
+
+header {
+    background-color: #212121;
+
+}
+
+nav {
+    height: 60px;
+
+}
+
+.nav-list {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+
+}
+
+nav ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+
+}
+
+nav ul li {
+    float: left;
+    padding: 20px;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: auto;
+    box-sizing: border-box;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #0D7377;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+nav ul a:hover {
+    background-color: #424242;
+    text-align: center;
+    padding-bottom: 16px;
+    border-bottom: solid #0D7377 5px;
+}
+
+nav ul a:active {
+    background-color: #0D7377;
+    color: #212121;
+
+}
+
+.current-page {
+    padding-top: 20px;
+    padding-bottom: 16px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-bottom: solid #0D7377 5px;
+}
+
+.heading {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #14FFEC;
+    margin-left: 10px;
+}
+
+.text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 10px;
+
+}
+
+footer {
+    background-color: #94F3E4;
+    height: 180px;
+    
+    
+}
