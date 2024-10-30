@@ -1,0 +1,145 @@
+/* <uniquifier>: Use a unique and descriptive class name */
+/* <weight>: Use a value from 100 to 900 */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background-color: #FEFAF6;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+header {
+    width: 100%;
+    background: url("Images/Hero-image.jpg");
+    background-size: cover;
+    background-position:bottom;
+    height: 600px;
+    position:relative; /* Changed from absolute */
+     
+    /* background-repeat: no-repeat; */
+}
+
+.logo {
+    padding: 20px;
+}
+
+.logo img {
+    max-height: 60px;
+    width: auto;
+}
+
+nav {
+    height: 140px;
+    background-color: rgba(255, 255, 255, 0.9); /* Added for better visibility */
+    position: fixed;
+    left: 0;
+    width:100%;
+    top:0;
+    align-items:flex-end;
+    
+}
+
+.nav-list {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    gap: 20px; /* Added for consistent spacing */
+}
+
+nav ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    list-style-type: none;
+    
+}
+
+nav ul a {
+    text-decoration: none;
+    color: #0D7377;
+    padding: 20px 15px 16px;
+    transition: all 0.3s ease; /* Added for smooth hover effect */
+}
+
+nav ul a:hover {
+    background-color: #424242;
+    color: #fff;
+    border-bottom: solid #0D7377 5px;
+}
+
+nav ul a:active {
+    background-color: #0D7377;
+    color: #212121;
+}
+
+.current-page {
+    border-bottom: solid #0D7377 5px;
+}
+
+.heading {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #14FFEC;
+    margin-left: 10px;
+}
+
+.text {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    color: #FFFFFF;
+    padding: 10px;
+}
+
+footer {
+    background-color: #94F3E4;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-top,
+.footer-bottom {
+    text-align: center;
+    padding: 10px 0;
+}
+
+.footer-top p,
+.footer-bottom p {
+    color: #000000;
+    font-size: small;
+    font-family: "Inter", sans-serif;
+}
+
+/* Added responsive design */
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    nav {
+        height: auto;
+        padding: 10px 0;
+    }
+    
+    nav ul a {
+        padding: 10px 15px;
+    }
+}
