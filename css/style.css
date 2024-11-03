@@ -1,5 +1,12 @@
-/* <uniquifier>: Use a unique and descriptive class name */
-/* <weight>: Use a value from 100 to 900 */
+:root {
+    --main-color: #0D7377;
+    --highlight-color: #14FFEC;
+    --footer-bg: #94F3E4;
+    --header-bg: #F0F0F0;
+    --body-bg: #FFFFFF;
+    --icon-width: 120px;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -53,23 +60,39 @@ nav {
     font-optical-sizing: auto;
     font-weight: 700;
     font-style: normal;
+    background: var(--body-bg);
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
+}
+
+header {
+    background-color: var(--header-bg);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.icon {
+    width: var(--icon-width);
+}
+
+nav {
+    flex-grow: 1;
 }
 
 nav ul {
     list-style-type: none;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    gap: 20px;
-    /* Added for consistent spacing */
+    justify-content: flex-end;
 }
 
 nav ul li {
-    display: inline-block;
-    text-transform: uppercase;
-    list-style-type: none;
-
+    margin-left: 20px;
+    font-weight: 700;
 }
 
 nav ul a {
@@ -89,10 +112,23 @@ nav ul a:hover {
 nav ul a:active {
     background-color: #0D7377;
     color: #212121;
+    color: var(--main-color);
+    padding: 10px 12px;
+    transition: all 0.1s;
 }
 
+nav ul a:hover,
 .current-page {
     border-bottom: solid #0D7377 5px;
+    border-bottom: solid var(--main-color) 5px;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
 }
 
 .home-content {
@@ -129,11 +165,11 @@ nav ul a:active {
 
 /* 
 .heading {
-    font-family: "Inter", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
-    color: #14FFEC;
-    margin-left: 10px;
+    color: var(--highlight-color);
+    margin: 20px 0;
+    text-align: center;
 }
 
 
@@ -151,6 +187,20 @@ footer {
     position: relative;
     bottom: 0;
     width: 100%;
+    font-family: "Cactus Classical Serif", serif;
+    color: var(--main-color);
+    padding: 10px;
+    text-align: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+footer {
+    background-color: var(--footer-bg);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .footer-top,
@@ -262,4 +312,27 @@ footer {
     }
 }
 
+ 
+footer .text {
+    color: #000000;
+    font-size: small;
+}
 
+@media (max-width: 768px) {
+    header {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+}
+
+/* .text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} */
