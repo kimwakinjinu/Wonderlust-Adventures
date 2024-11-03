@@ -13,29 +13,30 @@
     box-sizing: border-box;
 }
 
-body {
-    background: var(--body-bg);
-    display: flex;
-    flex-direction: column;
-    min-height: 100vh;
-    font-family: "Inter", sans-serif;
-}
-
-header {
-    background-color: var(--header-bg);
+.header-image {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px 20px;
+    height: 120vh;
 }
 
 .icon {
-    width: var(--icon-width);
+    position: relative;
+    top: 20%;
+    left: -11%;
+    width: 120px;
+    transform: translateX(-50%);
+    z-index: 200;
 }
 
-nav {
-    flex-grow: 1;
+.overlay {
+    position: relative;
+    top: 20%;
+    left: 20%;
+    width: 100%;
+    transform: translate(-50%);
+    z-index: 200;
 }
 
 nav ul {
@@ -47,6 +48,8 @@ nav ul {
 nav ul li {
     margin-left: 20px;
     font-weight: 700;
+    font-family: "Inter", sans-serif;
+
 }
 
 nav ul a {
@@ -54,6 +57,7 @@ nav ul a {
     color: var(--main-color);
     padding: 10px 12px;
     transition: all 0.1s;
+    text-shadow: #000000;
 }
 
 nav ul a:hover,
@@ -61,17 +65,16 @@ nav ul a:hover,
     border-bottom: solid var(--main-color) 5px;
 }
 
-main {
-    flex: 1;
+body {
+    background: var(--body-bg);
     display: flex;
     flex-direction: column;
-    align-items: center;
-    padding: 20px;
+    min-height: 100vh;
+    font-family: "Inter", sans-serif;
 }
 
 .heading {
-    font-weight: 600;
-    text-transform: uppercase;
+    font-weight: 700;
     color: var(--highlight-color);
     margin: 20px 0;
     text-align: center;
@@ -80,11 +83,16 @@ main {
 
 .text {
     font-family: "Cactus Classical Serif", serif;
-    color: var(--main-color);
+    color: var(--body-bg);
     padding: 10px;
     text-align: center;
     max-width: 800px;
     margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+    text-shadow: #000000 60px;
 }
 
 footer {
@@ -121,7 +129,3 @@ footer .text {
         margin: 10px 0;
     }
 }
-
-/* .text {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-} */
