@@ -297,7 +297,7 @@ body {
 
 .testimonial-text p {
     font-family: "Cactus Classical Serif", serif;
-    font-size: 16px;
+    font-size: 1.4vw;
     color: #333;
     margin-bottom: 10px;
     line-height: 1.6;
@@ -344,12 +344,12 @@ body {
 /* body, input,textarea, a{
     font-family: 'Roboto', sans-serif;
 } */
-#section-wrapper{
+#contacts{
     width: 100%;
     padding: 20px;
     margin-bottom: 20px;
 }
-.box-wrapper{
+.contacts-section{
     position: relative;
     display: table;
     width:1300px;
@@ -358,7 +358,7 @@ body {
     border-radius: 30px;
     width: 100%;
 }
-.box-wrapper h1{
+.contacts-section h1{
     
     text-align: center;
     font-size: 40px;
@@ -536,13 +536,14 @@ body {
 }
 
 .team-section .wrapper {
-    margin-top: 5%;
+    margin-top: 0;
 }
 
 .team-section .wrapper h1 {
     font-family: 'Allura', cursive;
-    font-size: 52px;
-    margin-bottom: 40px;
+    /* font-family: "Inter", sans-serif; */
+    font-size: 64px;
+    margin-bottom: 14vh;
     color: teal;
     text-align: center;
 }
@@ -589,11 +590,11 @@ body {
 
 .team .team_member .team_img {
     position: absolute;
-    top: -60px;
+    top: -100px;
     left: 50%;
     transform: translateX(-50%);
-    width: 120px;
-    height: 120px;
+    width: 180px;
+    height: 180px;
     border-radius: 50%;
     background: #ffffff;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
