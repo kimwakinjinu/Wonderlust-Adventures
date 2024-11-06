@@ -66,14 +66,13 @@ nav ul {
     list-style-type: none;
     display: flex;
     justify-content: flex-end;
-    margin-right: -5vw;
+    margin-right: -2.2vw;
 }
 
 nav ul li {
-    font-size: 1.5vw;
-    font-weight: 700;
+    font-size: 1.2vw;
+    font-weight: 750;
     font-family: "Inter", sans-serif;
-
 }
 
 nav ul a {
@@ -309,7 +308,7 @@ body {
 
 .testimonial-text p {
     font-family: "Cactus Classical Serif", serif;
-    font-size: 16px;
+    font-size: 1.4vw;
     color: #333;
     margin-bottom: 10px;
     line-height: 1.6;
