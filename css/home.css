@@ -219,10 +219,6 @@ body {
     line-height: 3.6vh;
 }
 
-.service-text:hover {
-    text-decoration: underline;
-}
-
 .service-card:hover {
     transform: translateY(-8px);
     color:#00796b;
