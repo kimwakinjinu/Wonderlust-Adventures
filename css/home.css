@@ -253,7 +253,7 @@ body {
 
 .service-card:hover {
     transform: translateY(-8px);
-    color:#00796b;
+    background-color:#00796b;
 }
 
 .service-card::after {
@@ -721,6 +721,7 @@ footer:hover {
 }
 
 .footerNav a {
+    font-family: "Inter", sans-serif;
     color: white;
     font-size: 1.1em;
     opacity: 0.7;
@@ -745,6 +746,7 @@ footer:hover {
 .footer-bottom p {
     color: white;
     font-size: 0.9em;
+    font-weight: 600;
     opacity: 0.8;
 }
 

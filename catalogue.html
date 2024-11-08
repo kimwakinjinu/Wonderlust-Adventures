@@ -18,24 +18,40 @@
 </head>
 
 <body>
-    <header class="catalogue_head">
-       ,<img src="images/Component 1.png" alt="Wanderlust"> 
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="contacts.html">Contacts</a></li>
-                <li><a href="team.html">Team</a></li>
-                <li><a class="current-page" href="catalogue.html">Catalogue</a></li>
-            </ul>
-        </nav>
+    <header class="heading">
+        <img class="header-image" src="images/Component 1(2).png" alt="Zanzibar">
+        <div class="glassback"></div>
     </header>
-    <br>
+   
+    <div class="overlay" style="height: 30vh;
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;
+                                text-align: center;
+                                margin-left: 5vw;
+                                margin-bottom: -26vh;
+                                font-size: 5vw;">
+        
+        <pre class="text" style="flex-direction: column; z-index: 20;">
+                    Catalogue        
+        </pre>
+    </div>
+    <div class="overlay">
+        <a href="index.html">
+            <img class="icon" src="images/Component 1.png" alt="Wanderlust&trade;">
+        </a>
+    </div>
+    <div class="overlay">
+        <div class="buttons">
+            <button class="catalogue-btn" style="margin-left: 45vw;"><a href="#Travel-destinations">Destinations</a></button>
+            <button class="catalogue-btn"><a href="#Travel-packages">Packages</a></button>
+        </div>
+    </div>
+
 
     <main>
-
-        <section id="Travel_destinations">
+        <hr style="margin: 2vh 3vw 2vh;">
+        <section id="Travel-destinations">
             <div class="section-head">
                 <h2> Travel Destinations</h2>
                 <p>View some of our top travel destinations worldwide.</p>
@@ -48,7 +64,7 @@
                     <div class="card-text">
                         <h2>Paris, France</h2>
                         <p>Family-friendly, Romantic</p>
-                        <p class="rating">Rating: 8.5/10</p>
+                        <p class="rating">Rating: <b>8.5</b></p>
                     </div>
                 </div>
                 <div class="card">
@@ -56,7 +72,7 @@
                     <div class="card-text">
                         <h2>Red Sea, Saudi Arabia</h2>
                         <p>Luxury, Relaxation</p>
-                        <p class="rating">Rating: 8.5/10</p>
+                        <p class="rating">Rating: <b>8.5</b></p>
                     </div>
                 </div>
                 <div class="card">
@@ -64,7 +80,7 @@
                     <div class="card-text">
                         <h2>Rio de Janeiro, Brazil</h2>
                         <p>Cultural, Lively</p>
-                        <p class="rating">Rating: 8.5/10</p>
+                        <p class="rating">Rating: <b>8.5</b></p>
                     </div>
                 </div>
                 <div class="card">
@@ -72,7 +88,7 @@
                     <div class="card-text">
                         <h2>Tokyo, Japan</h2>
                         <p>Cultural, Exploration</p>
-                        <p class="rating">Rating: 8.5/10</p>
+                        <p class="rating">Rating: <b>8.5</b></p>
                     </div>
                 </div>
                 <div class="card">
@@ -80,14 +96,14 @@
                     <div class="card-text">
                         <h2>Cairo, Egypt</h2>
                         <p>Family-friendly, Exploration</p>
-                        <p class="rating">Rating: 8.5/10</p>
+                        <p class="rating">Rating: <b>8.5</b></p>
                     </div>
             </div>
             
         
         </section>
         <br>
-        <section id="Travel_destinations">
+        <section id="Travel-packages">
             <div class="section-head">
                 <h2> Travel Packages</h2>
                 <p>Here are some of the curated packages we offer.</p>
@@ -135,16 +151,26 @@
     </main>
 
     <footer>
-        <div class="footer-top">
-            <p class="text">Customer Testimonials</p>
+        <div class="footercontainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            </div>
+            <div class="footerNav">
+                <a href="index.html">Home</a> |
+                <a href="">Privacy Policy</a> |
+                <a href="">Insurance Policy</a> |
+                <a href="">Sales & Refunds</a>
+
+            </div>
         </div>
         <div class="footer-bottom">
             <p class="text">Copyright &copy; 2024 Wanderlust Adventures</p>
-            <p class="text">
-                <a href="" style="text-decoration: none; color: #000000;">Privacy Policy</a> |
-                <a href="" style="text-decoration: none; color: #000000;">Insurance Policy</a> |
-                <a href="" style="text-decoration: none; color: #000000;">Sales & Refunds</a>
-            </p>
+        </div>
+    
+    
     </footer>
 </body>
 
