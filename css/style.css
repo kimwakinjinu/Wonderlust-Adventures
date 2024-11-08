@@ -320,7 +320,7 @@ footer {
  .service-card:hover{
     transform: translateY(-8px);
     color: #00796b; /* Teal color for the title */
-    border-color: ;
+    border-color: #000000        ;
  }
 .service-card:after {
     content: "";
