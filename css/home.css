@@ -142,6 +142,9 @@ body {
     justify-content: center;
     align-items: center;    
     text-shadow: 8px 8px 16px rgba(0, 0, 0, 0.7);
+    font-weight: bolder;
+    font-size: 80px;
+    
 }
 
 #about-us {
@@ -195,15 +198,18 @@ body {
 .services-section {
     padding: 8vh 10vw;
     background-color: #F5F5F5;
-    margin: 5vh 10vw;
+    margin: 5vh 12vw;
     border-radius: 16px;
     /* Light background color for the section */
     text-align: center;
+    /* width:200vh; */
+    /* height:100vh; */
+
 }
 
 .section-title {
     font-family: "Inter", sans-serif;
-    font-size: 2rem;
+    font-size: 2.2rem;
     color: #00796b;
     /* Teal color for the title */
     margin-bottom: 3vh;
@@ -235,7 +241,7 @@ body {
     text-align: center;
     position: relative;
     overflow: hidden;
-
+    border-color: #004e47;
 }
 
 .service-icon {
@@ -244,14 +250,35 @@ body {
     margin-bottom: 15px;
 }
 
+.service-card i {
+    font-size: 3vw;
+    line-height: 1.2vh;
+    align-items: center;
+    size: 60px;
+    margin-top: 30px;
+    color: teal;
+}
+ 
+
+.service-card i:hover {
+    font-size: 3vw;
+    color: rgb(130, 133, 133);
+     
+}
+/* .service-card i:hover {
+    font-size: 3vw;
+    color: rgb(130, 133, 133);
+    border: 1px solid red; 
+} */
+
 .service-card p {
-    font-family: "Inter", sans-serif;
+    font-family: "Cactus Classical Serif", serif;
     font-weight: 600;
     font-size: 1vw;
-    color: #050b1d;
-    line-height: 2.1vh;
+    color: #333;
+    line-height: 3.6vh;
     align-items: center;
-    text-align: center;
+    margin-top: 35px;
 }
 .service-card i {
     color:#72e2ae;
@@ -690,11 +717,11 @@ footer {
     transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
-footer:hover {
+/* footer:hover {
     background: linear-gradient(135deg, #003a6d, #000718, #94F3E4);
     box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
-    /* transform: scale(1.02); */
-}
+    
+} */
 
 .footercontainer {
     max-width: 100vw;
@@ -719,7 +746,7 @@ footer:hover {
 }
 
 .socialIcons a:hover {
-    color: #e91e63;
+    color: #e0e0e0;
 }
 
 .footerNav {
