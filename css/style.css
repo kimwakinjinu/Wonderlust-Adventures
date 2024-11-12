@@ -435,7 +435,10 @@ textarea {
     border-radius: 5px;
     cursor: pointer;
 }
-
+.button-group button a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
 .button-group button:hover {
     background-color: #00584d;
 }
