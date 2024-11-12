@@ -373,6 +373,16 @@ footer:hover {
     height: 60%;
     
   }
+  .modal-content h2 {
+    font-family: "Inter", sans-serif;
+    font-size: 2vw;
+    color: #0D7377;
+    padding: 1vw;
+  }
+  .modal-content p {
+    font-family: "Cactus Classical Serif", serif;
+    font-size: 1.4vw;
+  }
   .close {
     color: #aaa;
     float: right;
@@ -396,7 +406,7 @@ footer:hover {
     border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 300px;
+    margin-top: 30px;
     margin-bottom: 30px;
     display: block;
     margin-left: auto;
