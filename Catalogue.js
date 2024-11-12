@@ -28,6 +28,7 @@ document.querySelectorAll('.card').forEach(card => {
   window.onclick = function(event) {
     if (event.target == document.getElementById('infoModal')) {
       document.getElementById('infoModal').style.display = 'none';
+      document.body.style.overflow = 'auto';
     }
   };
 
