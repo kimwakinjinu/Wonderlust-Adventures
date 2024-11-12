@@ -948,7 +948,7 @@ no longer needed
 
 /* Footer Styling */
 footer {
-    background: linear-gradient(135deg, #000718, #003a6d, #94F3E4);
+    background: linear-gradient(135deg, #057474, #057474, #058b80);
     color: rgb(7, 175, 187);
     padding: 1em 0;
     text-align: center;
@@ -1011,7 +1011,7 @@ footer {
 
 .footerNav a:hover {
     opacity: 1;
-    color:rgb(7, 175, 187);
+    color:rgb(155, 231, 225);
     
 }
 
