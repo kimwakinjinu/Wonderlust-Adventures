@@ -56,7 +56,7 @@ html {
     position: relative;
     top: 6vh;
     left: 30vw;
-    width: 100vw;
+    width: 50vw;
     transform: translate(-50%);
     z-index: 20;
 }
@@ -141,7 +141,13 @@ nav ul a:hover,
 main {
     flex: 1 0 auto;
     width: 100vw;
-    padding-top: 8vh;
+    padding-top: 5vh;
+    background-color:var(--body-bg);
+}
+
+#catalogue_margin{
+    margin-top: 2.59vh;
+    padding-bottom: 7vh;
 }
 
 /* Styling for the card */
@@ -158,6 +164,7 @@ main {
     font-family: "Cactus Classical Serif";
     font-weight: 500;
     font-size: 1vw;
+    color: #829394;
 }
 
 .card {
@@ -227,14 +234,15 @@ main {
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     max-width: 1000px;
-    margin: 0 auto;
+    margin: 0 200px;
+
 
 }
 
 
 /* Footer Styling */
 footer {
-    margin: 10vh 0 0 0;
+    margin: 0.1vh 0 0 0;
     background: linear-gradient(135deg, #000718, #003a6d, #94F3E4);
     color: rgb(7, 175, 187);
     padding: 1vh 0;
@@ -328,3 +336,74 @@ footer:hover {
 }
 
 /* Made responsive */
+
+#destinations_size{
+    margin-top: 24vh;
+    padding-bottom: 4vh;
+}
+
+
+.card {
+    cursor: pointer;
+    transition: transform 0.3s;
+  }
+  .card:hover {
+    transform: scale(1.05);
+  }
+  .modal {
+    display: none;
+    position:fixed;
+    z-index: 21;
+    padding-top: 100px;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 12px;
+    width: 80%;
+    height: 60%;
+    
+  }
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+
+  #bookButton{
+    background-color: var(--main-color);
+    color: var(--body-bg);
+    border: none;
+    padding: 1.4vh 2vw;
+    font-size: 1.2vw;
+    font-weight: bold;
+    border-radius: 30px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 300px;
+    margin-bottom: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #modalDescription{
+    margin: 0;
+    padding: 2px 1vw;
+    word-wrap: break-word;
+  }
