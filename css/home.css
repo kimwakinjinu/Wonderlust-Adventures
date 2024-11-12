@@ -219,9 +219,11 @@ body {
 .section-title {
     font-family: "Inter", sans-serif;
     font-size: 2.5rem;
-    color: #00796b;
+    color: #005555;
     /* Teal color for the title */
     margin-bottom: 3vh;
+    align-items: center;
+    text-align: center;
 }
 
 /* Services Grid */
@@ -250,7 +252,7 @@ body {
     text-align: center;
     position: relative;
     overflow: hidden;
-    border-color: #00796b;
+    border-color: #005555;
 }
 
 .service-icon {
@@ -265,7 +267,7 @@ body {
     align-items: center;
     size: 60px;
     margin-top: 30px;
-    color: teal;
+    color: #057474;
 }
  
 
@@ -301,7 +303,7 @@ body {
  
 .service-card:hover {
     transform: translateY(-8px);
-    background-color:#00796b;
+    background-color:teal;
 }
 
 .service-card::after {
@@ -371,8 +373,8 @@ body {
 
 .testimonials-section h2 {
     font-size: 28px;
-    color: #006e5d;
-    text-align: left;
+    color: #005555;
+    text-align: center;
     margin-bottom: 20px;
 }
 
@@ -466,7 +468,7 @@ body {
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
-}
+
 
 /*
 .testimonial-section h2 {
@@ -477,7 +479,7 @@ body {
 
 h2 {
     font-size: 28px;
-    color: #006e5d;
+    color: #005555;
     text-align: left;
     margin-bottom: 20px;
 }
@@ -652,7 +654,7 @@ no longer needed
 }
 
 .carousel-btn:hover {
-    color: #005555;
+    color: teal;
 }
 
 /* body, input,textarea, a{
@@ -677,8 +679,9 @@ no longer needed
     
     text-align: center;
     font-size: 40px;
-    color: teal;
+    color: #005555;
     padding: 2vh;
+     text-transform: uppercase;
 }
 .info-wrap{
     width: 35%;
@@ -694,6 +697,7 @@ no longer needed
     text-align: left;
     font-size: 2vw;
     letter-spacing: 0.05vw;
+    color: #e0e0e0;
 }
 .info-sub-title{
     font-size: 1.2vw;
@@ -712,7 +716,7 @@ no longer needed
     color: #fff;
 }
 .info-details li i {
-    background: #94F3E4;
+    background: #005555;
     padding: 12px;
     border-radius: 50%;
     margin-right: 5px;
@@ -722,7 +726,7 @@ no longer needed
     text-decoration: none;
 }
 .info-details li a:hover {
-    color: #47f4ac;
+    color: #005555;
 }
 .social-icons {
     list-style: none;
@@ -733,7 +737,7 @@ no longer needed
     display: inline-block;
 }
 .social-icons li i {
-    background: #94F3E4;
+    background: #005555;
     color: #fff;
     padding: 15px;
     font-size: 20px;
@@ -817,7 +821,7 @@ no longer needed
     transition: .5s;
 }
 .submit-button:hover{
-    background: #004e47;
+    background: teal;
 }
 
 
@@ -944,7 +948,7 @@ no longer needed
 
 /* Footer Styling */
 footer {
-    background: linear-gradient(135deg, #000718, #003a6d, #94F3E4);
+    background: linear-gradient(135deg, #057474, #057474, #058b80);
     color: rgb(7, 175, 187);
     padding: 1em 0;
     text-align: center;
@@ -1007,7 +1011,7 @@ footer {
 
 .footerNav a:hover {
     opacity: 1;
-    color:rgb(7, 175, 187);
+    color:rgb(155, 231, 225);
     
 }
 
