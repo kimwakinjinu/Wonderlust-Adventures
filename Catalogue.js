@@ -37,3 +37,4 @@ function scrollToElement(element) {
     block: 'start' // Align the top of the element with the top of the viewport
   });
 }
+
