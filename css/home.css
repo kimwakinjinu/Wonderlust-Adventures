@@ -239,7 +239,7 @@ body {
 .service-card {
     height: 32vh;
     width: 18vw;
-    background-color: #e0e0e0;
+    background-color: #06b4b4;
     /* Light gray background for cards */
     padding: 1.2vh 2vw;
     margin: 1vw;
@@ -285,7 +285,7 @@ body {
 .service-card p {
     font-family: "Inter", sans-serif;
     font-size: 1vw;
-    color:#333;
+    color:#080808;
     line-height: 3vh;
     align-items: center;
     text-align: center;
@@ -303,7 +303,7 @@ body {
  
 .service-card:hover {
     transform: translateY(-8px);
-    background-color:teal;
+    background-color:#e0e0e0;
 }
 
 .service-card::after {
