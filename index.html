@@ -181,17 +181,60 @@
     <section id="testimonials" class="testimonials-section">
         <h2>TESTIMONIALS</h2>
         <div class="testimonial-content">
-            <div class="testimonial-text">
+            <!-- <div class="testimonial-text">
                 <p>"Our family trip to Maldives was nothing short of magical, and I can’t recommend Wanderlust agencies enough!
                     From the moment we reached out, their team was incredibly helpful and efficient, guiding us through
                     every step of the planning process. They truly made our dream vacation a reality!"</p>
                 <p class="testimonial-author">— Emily R., Family Traveler</p>
-                <button class="view-more">View More</button>
             </div>
             <div class="testimonial-image">
                 <img src="./images/maldives.jpg" alt="Family enjoying vacation in Dubai">
+            </div> -->
+            <div class="testimonial-item">
+                <p class="testimonial-text">"My solo backpacking adventure across Europe was perfectly organized thanks to Wanderlust. 
+                    Every detail was meticulously planned, and I felt safe and supported throughout my journey.
+                     Definitely using their services again!"</p>
+                <p class="testimonial-author">— Alex J., Solo Traveler</p>
+                <img src="./images/maldives.jpg" alt="Backpacking in Europe" class="testimonial-image">
+            </div>
+            <div class="testimonial-item">
+                <p class="testimonial-text">"The romantic getaway to the Maldives was beyond my expectations! Wanderlust took care of everything, from flights to resort bookings, and we even got surprise upgrades. Couldn’t have asked for a better experience!"</p>
+                <p class="testimonial-author">— Sarah & Mark, Couple</p>
+                <img src="./images/zanzibar_tanzania.jpg" alt="Couple in Maldives" class="testimonial-image">
+            </div>
+            <div class="testimonial-item">
+                <p class="testimonial-text">"We booked a cultural tour in Okinawa, and it was an incredible journey! Wanderlust provided us with an itinerary that matched our interests perfectly, and the local guides were amazing. Highly recommend!"</p>
+                <p class="testimonial-author">— Chris L., Cultural Enthusiast</p>
+                <img src="./images/polynesia-3021072_1280 3.png" alt="Cultural Tour in Japan" class="testimonial-image">
             </div>
         </div>
+        <button class="carousel-btn prev" onclick="prevTestimonial()">❮</button>
+        <button class="carousel-btn next" onclick="nextTestimonial()">❯</button>
+        </div>
+        <script>
+            let currentIndex = 0;
+            const testimonials = document.querySelectorAll('.testimonial-item');
+        
+            function showTestimonial(index) {
+                testimonials.forEach((testimonial, i) => {
+                    testimonial.classList.remove('active');
+                    if (i === index) testimonial.classList.add('active');
+                });
+            }
+        
+            function nextTestimonial() {
+                currentIndex = (currentIndex + 1) % testimonials.length;
+                showTestimonial(currentIndex);
+            }
+        
+            function prevTestimonial() {
+                currentIndex = (currentIndex - 1 + testimonials.length) % testimonials.length;
+                showTestimonial(currentIndex);
+            }
+        
+            // Auto-slide every 8 seconds
+            setInterval(nextTestimonial, 8000);
+        </script>
     </section>
  
     <section id="contacts">
