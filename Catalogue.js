@@ -1,5 +1,8 @@
 document.querySelectorAll('.card').forEach(card => {
     card.addEventListener('click', () => {
+      document.body.style.overflow = 'hidden';
+
+      scrollToElement(card);
 
       const title = card.getAttribute('data-title');
       const description = card.getAttribute('data-description');
@@ -18,6 +21,7 @@ document.querySelectorAll('.card').forEach(card => {
   // Close modal functionality
   document.querySelector('.close').addEventListener('click', () => {
     document.getElementById('infoModal').style.display = 'none';
+    document.body.style.overflow = 'auto';
   });
   
   // Hide modal when clicking outside content
@@ -27,19 +31,9 @@ document.querySelectorAll('.card').forEach(card => {
     }
   };
 
-  function scrollToElement(elementId) {
-    const element = document.getElementById(elementId);
-    if (element) {
-        element.scrollIntoView({
-            behavior: "smooth",
-            block: "start",
-        });
-    } else {
-        console.error();
-    }
-  }
-
-  document.getElementById("destinations_size").addEventListener("click", function() {
-    scrollToElement("data-title")
-  })
-  
+function scrollToElement(element) {
+    element.scrollIntoView({
+    behavior: 'smooth',
+    block: 'start' // Align the top of the element with the top of the viewport
+  });
+}
