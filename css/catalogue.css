@@ -4,7 +4,7 @@
     --footer-bg: #94F3E4;
     --header-bg: #F0F0F0;
     --body-bg: #FFFFFF;
-    --icon-width: 90px;
+    --icon-width: 6vw;
 }
 
 html {
@@ -45,7 +45,7 @@ html {
 .icon {
     position: relative;
     top: -10vh;
-    left: 15vw;
+    left: -10vw;
     width: var(--icon-width);
     transform: translateX(100%);
     z-index: 50;
@@ -164,8 +164,9 @@ main {
     font-family: "Cactus Classical Serif";
     font-weight: 500;
     font-size: 1vw;
-    color: #829394;
+    color: #000000;
 }
+
 
 .card {
     width: 300px;
@@ -234,7 +235,7 @@ main {
     grid-template-columns: repeat(5, 1fr);
     gap: 20px;
     max-width: 1000px;
-    margin: 0 200px;
+    margin: 0 2vw;
 
 
 }
@@ -400,6 +401,12 @@ footer:hover {
     display: block;
     margin-left: auto;
     margin-right: auto;
+  }
+
+  #bookButton a {
+    font-family: "Inter", sans-serif;
+    text-decoration: none;
+    color: #FFFFFF;
   }
   
   #modalDescription{
