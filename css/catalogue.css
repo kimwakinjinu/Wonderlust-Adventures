@@ -382,6 +382,7 @@ footer:hover {
   .modal-content p {
     font-family: "Cactus Classical Serif", serif;
     font-size: 1.4vw;
+    line-height: 5vh;
   }
   .close {
     color: #aaa;
@@ -406,7 +407,7 @@ footer:hover {
     border-radius: 30px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 30px;
     display: block;
     margin-left: auto;
