@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Adventures</title>
+    <link rel="icon" href="images/favicon.png" type="image/png">
+    <link rel="stylesheet" href="css/catalogue.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cactus+Classical+Serif&display=swap');
+    </style>
+</head>
+
+
+<body>
+    <header class="heading">
+        <img class="header-image" src="images/bhutan-5754076_1280.jpg" alt="Bhutan">
+        <div class="glassback"></div>
+    </header>
+   
+    <div class="overlay" style="height: 30vh;
+                                display:flex;
+                                justify-content: center;
+                                align-items: center;
+                                text-align: center;
+                                margin-left: 5vw;
+                                margin-bottom: -26vh;
+                                font-size: 5vw;">
+        
+        <pre class="text" style="flex-direction: column; z-index: 20;">
+                    Travel Destinations     
+        </pre>
+    </div>
+    <div class="overlay">
+        <a href="index.html">
+            <img class="icon" src="images/Component 1.png" alt="Wanderlust&trade;">
+        </a>
+    </div>
+    
+    <br>
+
+    <main id="destinations_size">
+        <hr style="margin: 2vh 3vw 2vh;">
+           <section id="Travel-destinations">
+               <div class="section-head">
+                   <h2> Travel Destinations</h2>
+                   <p>View some of our top travel destinations worldwide.</p>
+   
+               </div>
+               <br>
+               <div class="display-grid" >
+                   <div class="card" data-title="Paris, France" data-description="A romantic city known for its culture and landmarks." data-rating="8.5" >
+                       <img src="images/arch-6356637_1280.jpg" alt="Paris, France" class="card-image">
+                       <div class="card-text">
+                           <h2>Paris, France</h2>
+                           <p>Family-friendly, Romantic</p>
+                           <p class="rating">Rating: <b>8.5</b></p>
+                       </div>
+                   </div>
+                   <div id="infoModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <h2 id="modalTitle">Paris, France</h2>
+                      <p id="modalDescription"></p>
+                      <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+                      <button id="bookButton">Book Destination</button>
+                    </div>
+                  </div>
+                  
+                   <div class="card" data-title="Red Sea, Saudi Arabia">
+                       <img src="images/sea-3496528_1280.jpg" alt="Paris, France" class="card-image">
+                       <div class="card-text">
+                           <h2>Red Sea, Saudi Arabia</h2>
+                           <p>Luxury, Relaxation</p>
+                           <p class="rating">Rating: <b>8.5</b></p>
+                       </div>
+                   </div>
+                   <div id="infoModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <h2 id="modalTitle">Red Sea, Saudi Arabia</h2>
+                      <p id="modalDescription"></p>
+                      <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+                      <button id="bookButton">Book Destination</button>
+                    </div>
+                  </div>
+                  
+                   <div class="card" data-title="Rio de Janeiro, Brazil">
+                       <img src="images/rio-de-janeiro-2790455_1280.jpg" alt="Paris, France" class="card-image">
+                       <div class="card-text">
+                           <h2>Rio de Janeiro, Brazil</h2>
+                           <p>Cultural, Lively</p>
+                           <p class="rating">Rating: <b>8.5</b></p>
+                       </div>
+                   </div>
+                   <div id="infoModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <h2 id="modalTitle"></h2>
+                      <p id="modalDescription"></p>
+                      <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+                      <button id="bookButton">Book Destination</button>
+                    </div>
+                  </div>
+                  
+                   <div class="card" data-title="Tokyo, Japan">
+                       <img src="images/temple-7289763_640.jpg" alt="Paris, France" class="card-image">
+                       <div class="card-text">
+                           <h2>Tokyo, Japan</h2>
+                           <p>Cultural, Exploration</p>
+                           <p class="rating">Rating: <b>8.5</b></p>
+                       </div>
+                   </div>
+                   <div id="infoModal" class="modal">
+                    <div class="modal-content">
+                      <span class="close">&times;</span>
+                      <h2 id="modalTitle"></h2>
+                      <p id="modalDescription"></p>
+                      <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+                      <button id="bookButton">Book Destination</button>
+                    </div>
+                  </div>
+                  
+                   <div class="card" data-title="Cairo, Egypt">
+                       <img src="images/pyramid-3804374_1280.jpg" alt="Paris, France" class="card-image">
+                       <div class="card-text">
+                           <h2>Cairo, Egypt</h2>
+                           <p>Family-friendly, Exploration</p>
+                           <p class="rating">Rating: <b>8.5</b></p>
+                       </div>
+                
+                    </div>
+                    <div id="infoModal" class="modal">
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <h2 id="modalTitle"></h2>
+                          <p id="modalDescription"></p>
+                          <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+                          <button id="bookButton">Book Destination</button>
+                        </div>
+                    </div>
+                   
+                   <div class="card" data-title="Port Louis, Mauritius">
+                       <img src="images/Port-Louis-Mauritius.png" alt="Paris, France" class="card-image">
+                       <div class="card-text">
+                           <h2>Port Louis, Mauritius</h2>
+                           <p>Family-friendly, Exploration</p>
+                           <p class="rating">Rating: <b>8.5</b></p>
+                       </div>
+                
+                    </div>
+                    <div id="infoModal" class="modal">
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <h2 id="modalTitle"></h2>
+                          <p id="modalDescription"></p>
+                          <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+                          <button id="bookButton">Book Destination</button>
+                        </div>
+                      </div>
+                      
+                   <div class="card" data-title="Saimaa, France" data-description=" Finland’s Saimaa Lake area, European Region of Gastronomy, is perfect for nature and cuisine lovers.
+                   	Attractions: Savonlinna Castle, Lappeenranta markets, Finnish forests.
+                   •	Activities: Lake cruises, sampling local fish, hiking trails.
+                   •	Top Hotels: Original Sokos Hotel Lappee, Scandic Imatran Valtionhotelli, Hotel & Spa Resort Järvisydän."
+
+                    data-rating="9.0">
+                       <img src="images/saimaa_finland.jpg" alt="Paris, France" class="card-image">
+                       <div class="card-text">
+                           <h2>Saimaa, Finland</h2>
+                           <p>Family-friendly, Exploration</p>
+                           <p class="rating">Rating: <b>8.5</b></p>
+                       </div>
+                
+                    </div>
+                    <div id="infoModal" class="modal">
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <h2 id="modalTitle"></h2>
+                          <p id="modalDescription">
+                            <ul>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
+                          </p>
+                          <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+                          <button id="bookButton">Book Destination</button>
+                        </div>
+                      </div>
+                      
+                   <div class="card" data-title="Phuket, Thailand">
+                       <img src="images/phuket_thailand.jpg" alt="Paris, France" class="card-image">
+                       <div class="card-text">
+                           <h2>Phuket, Thailand</h2>
+                           <p>Family-friendly, Exploration</p>
+                           <p class="rating">Rating: <b>8.5</b></p>
+                       </div>
+                
+                    </div>
+                    <div id="infoModal" class="modal">
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <h2 id="modalTitle"></h2>
+                          <p id="modalDescription"></p>
+                          <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+                          <button id="bookButton">Book Destination</button>
+                        </div>
+                      </div>
+                      
+                   <div class="card" data-title="Barcelona, Spain">
+                       <img src="images/barcelona_spain.jpg" alt="Paris, France" class="card-image">
+                       <div class="card-text">
+                           <h2>Barcelona, Spain</h2>
+                           <p>Family-friendly, Exploration</p>
+                           <p class="rating">Rating: <b>8.5</b></p>
+                       </div>
+                
+                    </div>
+                    <div id="infoModal" class="modal">
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <h2 id="modalTitle"></h2>
+                          <p id="modalDescription"></p>
+                          <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+                          <button id="bookButton">Book Destination</button>
+                        </div>
+                      </div>
+                      
+                   <div class="card" data-title="Hanoi, Vietnam">
+                       <img src="images/hanoi_vietnam.jpg" alt="Paris, France" class="card-image">
+                       <div class="card-text">
+                           <h2>Hanoi, Vietnam</h2>
+                           <p>Family-friendly, Exploration</p>
+                           <p class="rating">Rating: <b>8.5</b></p>
+                       </div>
+                
+                    </div>
+                    <div id="infoModal" class="modal">
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <h2 id="modalTitle"></h2>
+                          <p id="modalDescription"></p>
+                          <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+                          <button id="bookButton">Book Destination</button>
+                        </div>
+                      </div>
+                      
+                   <div class="card" data-title="Kathmandu, Nepal" data-description="Set in Nepal, Kathmandu beckons travelers with its compelling fusion of serene landscapes, historical and spiritual richness . Sightseers are drawn to  must-visit places like Swayambhunath Stupa, Pashupatinath Temple or Durbar Square, where the essence of the destination comes alive. Whether enjoying hiking in the Annapurna region, temple tours or taking part in unique experiences such as shopping at Thamel markets, visitors find endless opportunities for immersion. To round out the adventure, Dwarika’s Hotel, Hyatt Regency, Kathmandu Guest House offer exquisite stays. Kathmandu seamlessly weaves together energy and relaxation, inviting travelers to uncover its best-kept secrets.">
+                       <img src="images/kathmandu_nepal.jpg" alt="Paris, France" class="card-image">
+                       <div class="card-text">
+                           <h2>Kathmandu, Nepal</h2>
+                           <p>Family-friendly, Exploration</p>
+                           <p class="rating">Rating: <b>8.5</b></p>
+                       </div>
+                
+                    </div>
+                    <div id="infoModal" class="modal">
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <h2 id="modalTitle"></h2>
+                          <p id="modalDescription"></p>
+                          <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+                          <button id="bookButton"><a href="booking_page.html"> Destination</a></button>
+                        </div>
+                      </div>
+                      
+                   <div class="card" data-title="Machu Pichu, Peru">
+                       <img src="images/machu_pichu_peru.jpg" alt="Paris, France" class="card-image">
+                       <div class="card-text">
+                           <h2>Machu Pichu, Peru</h2>
+                           <p>Family-friendly, Exploration</p>
+                           <p class="rating">Rating: <b>8.5</b></p>
+                       </div>
+                
+                    </div>
+                    <div id="infoModal" class="modal">
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <h2 id="modalTitle"></h2>
+                          <p id="modalDescription"></p>
+                          <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+                          <button id="bookButton">Book Destination</button>
+                        </div>
+                      </div>
+                      
+                   <div class="card" data-title="Berlin, Germany">
+                       <img src="images/berlin_germany.jpg" alt="Paris, France" class="card-image">
+                       <div class="card-text">
+                           <h2>Berlin, Germany</h2>
+                           <p>Family-friendly, Exploration</p>
+                           <p class="rating">Rating: <b>8.5</b></p>
+                       </div>
+                
+                    </div>
+                    <div id="infoModal" class="modal">
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <h2 id="modalTitle"></h2>
+                          <p id="modalDescription"></p>
+                          <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+                          <button id="bookButton">Book Destination</button>
+                        </div>
+                      </div>
+                      
+                   <div class="card" data-title="Brno, Czech Republic">
+                       <img src="images/brno_czech_republic.jpg" alt="Paris, France" class="card-image">
+                       <div class="card-text">
+                           <h2>Brno, Czech Republic</h2>
+                           <p>Family-friendly, Exploration</p>
+                           <p class="rating">Rating: <b>8.5</b></p>
+                       </div>
+                
+                    </div>
+                    <div id="infoModal" class="modal">
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <h2 id="modalTitle"></h2>
+                          <p id="modalDescription"></p>
+                          <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+                          <button id="bookButton">Book Destination</button>
+                        </div>
+                      </div>
+                   <div class="card" data-title="Seoul, South Korea">
+                       <img src="images/seoul_south-korea.jpg" alt="Paris, France" class="card-image">
+                       <div class="card-text">
+                           <h2>Seoul, South Korea</h2>
+                           <p>Family-friendly, Exploration</p>
+                           <p class="rating">Rating: <b>8.5</b></p>
+                       </div>
+                
+                    </div>
+                    <div id="infoModal" class="modal">
+                        <div class="modal-content">
+                          <span class="close">&times;</span>
+                          <h2 id="modalTitle"></h2>
+                          <p id="modalDescription"></p>
+                          <p><strong>Rating:</strong> <span id="modalRating"></span></p>
+                          <button id="bookButton">Book Destination</button>
+                        </div>
+                      </div>
+                      
+               </div>
+               <script src="Catalogue.js"></script>
+           </section>
+   </main>
+
+    <footer>
+        <div class="footercontainer">
+            <div class="socialIcons">
+                <a href=""><i class="fa-brands fa-square-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-square-x-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-google-plus"></i></a>
+            </div>
+            <div class="footerNav">
+                <a href="index.html">Home</a> |
+                <a href="">Privacy Policy</a> |
+                <a href="">Insurance Policy</a> |
+                <a href="">Sales & Refunds</a>
+
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p class="text">Copyright &copy; 2024 Wanderlust Adventures</p>
+        </div>
+    
+    
+    </footer>
+</body>
