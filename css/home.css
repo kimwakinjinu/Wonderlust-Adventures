@@ -890,7 +890,7 @@ no longer needed
 
 .team .team_member {
     background: #fff;
-    margin: 2vw;
+    margin: 2.7vw;
     width: 280px;
     padding: 30px 20px;
     line-height: 1.6;
@@ -898,7 +898,7 @@ no longer needed
     position: relative;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    transition: transform 0.3s ease;
+    transition: transform 0.5s ease;
 }
 
 .team .team_member:hover {
@@ -948,9 +948,11 @@ no longer needed
     color: #333;
 }
 
+
+
 /* Footer Styling */
 footer {
-    background: linear-gradient(135deg, #057474, #057474, #058b80);
+    background: linear-gradient(135deg, #024444, #057474,#024444);
     color: rgb(7, 175, 187);
     padding: 1em 0;
     text-align: center;
@@ -958,6 +960,15 @@ footer {
     position: relative;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+footer:hover{
+    
+        background: linear-gradient(135deg, #024042, #018286, #13b6ae);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+        transform: scale(1.02);
+        transition: 3s;
+
 }
 
 /* footer:hover {
