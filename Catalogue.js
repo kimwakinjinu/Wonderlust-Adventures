@@ -18,13 +18,11 @@ document.querySelectorAll('.card').forEach(card => {
     });
   });
   
-  // Close modal functionality
   document.querySelector('.close').addEventListener('click', () => {
     document.getElementById('infoModal').style.display = 'none';
     document.body.style.overflow = 'auto';
   });
   
-  // Hide modal when clicking outside content
   window.onclick = function(event) {
     if (event.target == document.getElementById('infoModal')) {
       document.getElementById('infoModal').style.display = 'none';
