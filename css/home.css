@@ -684,11 +684,11 @@ no longer needed
     font-size: 40px;
     color: #005555;
     padding: 2vh;
-     text-transform: uppercase;
+    text-transform: uppercase;
 }
 .info-wrap{
     width: 35%;
-    height: 70vh;
+    height: 80vh;
     padding: 40px;
     float: left;
     display: block;
@@ -757,7 +757,7 @@ no longer needed
 
 .form-wrap{
     width:45.5vw;
-    height: 70vh;
+    height: 80vh;
     float: right;
     padding:40px 25px 35px 25px;
     border-radius: 0px 30px 30px 0px;
@@ -786,7 +786,7 @@ no longer needed
     height: 8vh;
 }
 .form-fields textarea{
-    height: 20vh;
+    height: 28vh;
     resize: none;
 }
 .fname::placeholder,
